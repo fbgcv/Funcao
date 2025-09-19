@@ -24,3 +24,9 @@ class ContaBancaria{
         console.log(`Saldo atual: R$${this.saldo}`);
     }
 }
+
+// Uso
+const minhaConta = new ContaBancaria(1000);
+minhaConta(500);
+minhaConta(200);
+minhaConta.extrato();
